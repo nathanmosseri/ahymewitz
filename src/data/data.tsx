@@ -13,18 +13,21 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import heroImage from '../images/lawyer-photo.jpg';
+// import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+// import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+// import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+// import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+// import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+// import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+// import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+// import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import princeLobel from '../images/portfolio/Prince-Lobel-image.jpg';
+import cannabisLaw from '../images/portfolio/cannabis-law-journal.jpg';
+import anyLaw from '../images/portfolio/anylaw.jpg'
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -44,8 +47,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Alexander Hymowitz',
+  description: "Personal Website of Alexander Hymowitz",
 };
 
 /**
@@ -55,7 +58,7 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
-  Portfolio: 'portfolio',
+  Portfolio: 'Publications',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
@@ -69,7 +72,7 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `Alexander Hymowitz`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -196,70 +199,70 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage1,
+    // title: 'Prince Lobel Client Alert',
+    description: 'OCM ISSUES DUE DILIGENCE AND APPLICATION PROCESS CHECKLIST',
+    url: 'https://princelobel.com/ocm-issues-due-diligence-and-application-process-checklist/',
+    image: princeLobel,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage2,
+    // title: 'Prince Lobel Client Alert',
+    description: "OCM Inaugural Annual Report:  Five Major Highlights from New York’s Cannabis Industry 2022",
+    url: 'https://princelobel.com/client-alert-ocm-inaugural-annual-report-five-major-highlights-from-new-yorks-cannabis-industry-2022/',
+    image: princeLobel,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage3,
+    // title: 'Prince Lobel Client Alert',
+    description: "The Application for New York’s Cannabis Compliance Training& Mentorship Program is Live through November 3, 2022",
+    url: 'https://princelobel.com/the-application-for-new-yorks-cannabis-compliance-training-mentorship-program-is-live-through-november-3-2022/',
+    image: princeLobel,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage4,
+    // title: 'Cannabis Law Journal',
+    description: 'Prince Lobel:  New York Eases Testing Requirements for Cannabis Flower Products',
+    url: 'https://cannabislaw.report/new-york-eases-testing-requirements-for-cannabis-flower-products/',
+    image: cannabisLaw,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage5,
+    // title: 'Cannabis Law Journal',
+    description: 'Prince Lobel:  MRTA Legislation Breakdown',
+    url: 'https://journal.cannabislaw.report/prince-lobel-mrta-legislation-breakdown/',
+    image: cannabisLaw,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage6,
+    // title: 'Anylaw.com',
+    description: 'Scott v. City of Buffalo and the Buffalo Fire Department',
+    url: 'https://www.anylaw.com/media/2022/02/01/scott-v-city-of-buffalo-and-the-buffalo-fire-department/',
+    image: anyLaw,
   },
   {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage7,
+    // title: 'Anylaw.com',
+    description: 'Commonwealth of Northern Mariana Islands v. Hocog, 202 MP 7,',
+    url: 'https://www.anylaw.com/media/2021/12/06/commonwealth-of-northern-mariana-islands-v-hocog-2020-mp-7/',
+    image: anyLaw,
   },
   {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage8,
+    // title: 'Cannabis Law Journal',
+    description: 'Entheogens:  An Alternative Treatment for Pain and Depression',
+    url: 'https://journal.cannabislaw.report/mike-raschilla-alexander-hymowitz-entheogens-an-alternative-treatment-for-pain-and-depression/',
+    image: cannabisLaw,
   },
   {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage9,
+    // title: 'Cannabis Law Journal.',
+    description: "New York’s Conditional Cannabis Cultivation Bill Breakdown",
+    url: 'https://journal.cannabislawreport.com/alexander-hymowitz-new-yorks-conditional-cannabis-cultivation-bill-breakdown/',
+    image: cannabisLaw,
   },
   {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage10,
+    // title: 'Cannabis Law Journal',
+    description: 'The Effects Cannabis Production Has on Utility Grids',
+    url: 'https://journal.cannabislaw.report/alexander-hymowitz-the-effects-cannabis-production-has-on-utility-grids/',
+    image: cannabisLaw,
   },
   {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage11,
+    // title: 'Cannabis Law Journal',
+    description: 'The NBA’s Ending of Cannabis Testing is a Step in the Right Direction, but Misses the Rim',
+    url: 'https://journal.cannabislawreport.com/alexander-hymowitz-the-nbas-ending-of-cannabis-testing-is-a-step-in-the-right-direction-but-misses-the-rim/',
+    image: cannabisLaw,
   },
 ];
 
@@ -313,18 +316,18 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Prince Lobel Client Alert',
+      text: 'OCM ISSUES DUE DILIGENCE AND APPLICATION PROCESS CHECKLIST',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      name: 'Prince Lobel Client Alert',
+      text: "OCM Inaugural Annual Report:  Five Major Highlights from New York’s Cannabis Industry 2022",
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      name: 'Cannabis Law Journal ',
+      text: 'Prince Lobel:  New York Eases Testing Requirements for Cannabis Flower Products',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],

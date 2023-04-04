@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
-    "build": "yarn compile && yarn next build",
+    "build": "next build && next export",
     "clean": "rm -rf build-tsc .next",
     "compile": "yarn run -T tsc --build --verbose",
     "dev": "yarn compile && yarn next dev",
@@ -17,7 +17,7 @@
     "autoprefixer": "^10.4.2",
     "classnames": "^2.3.1",
     "firebase": "^9.19.1",
-    "next": "^12.1.0",
+    "next": "^12.3.4",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "ts-pattern": "^4.0.3"

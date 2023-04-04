@@ -28,7 +28,7 @@ import heroImage from '../images/law-photo3.jpg';
 import princeLobel from '../images/portfolio/Prince-Lobel-image.jpg';
 import cannabisLaw from '../images/portfolio/cannabis-law-journal.jpg';
 import anyLaw from '../images/portfolio/anylaw.jpg'
-import profilepic from '../images/ahymowitz-image.jpg';
+import profilepic from '../images/a_hym_pic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,

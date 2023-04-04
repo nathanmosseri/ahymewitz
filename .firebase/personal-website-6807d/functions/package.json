@@ -1,0 +1,36 @@
+{
+  "name": "react-resume-template",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build && next export",
+    "clean": "rm -rf build-tsc .next",
+    "compile": "yarn run -T tsc --build --verbose",
+    "dev": "yarn compile && yarn next dev",
+    "lint": "yarn run -T prettier --write './src/**/*.{js,jsx,json,ts,tsx}' && eslint './src/**/*.{js,jsx,ts,tsx}' --fix --max-warnings=0",
+    "start": "yarn next start",
+    "sitemap": "yarn next-sitemap"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.5.0",
+    "@heroicons/react": "^1.0.6",
+    "autoprefixer": "^10.4.2",
+    "classnames": "^2.3.1",
+    "firebase": "^9.19.1",
+    "next": "^12.3.4",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "ts-pattern": "^4.0.3",
+    "sharp": "latest",
+    "firebase-frameworks": "^0.6.0",
+    "firebase-functions": "^3.23.0",
+    "firebase-admin": "^11.0.1"
+  },
+  "resolutions": {
+    "autoprefixer": "10.4.5"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": "16"
+  }
+}

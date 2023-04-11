@@ -76,22 +76,16 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        {/* I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder. */}
         I am an <strong>associate in Prince Lobel's Purchase, New York office</strong> and a member of the firm’s <strong>Cannabis industry group</strong> assisting with the <strong>formation, licensing, and operation of cannabis establishments.</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        {/* In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>. */}
         In my free time, you can find me practicing <strong>Brazilian Jiu Jitsu</strong> and <strong>trying out new recipes.</strong>
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: 'https://drive.google.com/file/d/1VLJ4aOa_TGnyUVnvlWRjLI5o9omkFkm-/view?ts=6434754a',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -220,14 +214,14 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     // title: 'Cannabis Law Journal',
-    description: 'Prince Lobel:  New York Eases Testing Requirements for Cannabis Flower Products',
+    description: 'New York Eases Testing Requirements for Cannabis Flower Products',
     url: 'https://cannabislaw.report/new-york-eases-testing-requirements-for-cannabis-flower-products/',
     image: cannabisLaw,
   },
   {
     // title: 'Cannabis Law Journal',
-    description: 'Prince Lobel:  MRTA Legislation Breakdown',
-    url: 'https://journal.cannabislaw.report/prince-lobel-mrta-legislation-breakdown/',
+    description: 'MRTA Legislation Breakdown',
+    url: 'https://journal.cannabislawreport.com/wp-content/uploads/2022/10/M.R.T.A-Legislation-Breakdown.pdf',
     image: cannabisLaw,
   },
   {
@@ -245,7 +239,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     // title: 'Cannabis Law Journal',
     description: 'Entheogens:  An Alternative Treatment for Pain and Depression',
-    url: 'https://journal.cannabislaw.report/mike-raschilla-alexander-hymowitz-entheogens-an-alternative-treatment-for-pain-and-depression/',
+    url: 'https://journal.cannabislawreport.com/mike-raschilla-alexander-hymowitz-entheogens-an-alternative-treatment-for-pain-and-depression/',
     image: cannabisLaw,
   },
   {
@@ -257,7 +251,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     // title: 'Cannabis Law Journal',
     description: 'The Effects Cannabis Production Has on Utility Grids',
-    url: 'https://journal.cannabislaw.report/alexander-hymowitz-the-effects-cannabis-production-has-on-utility-grids/',
+    url: 'https://journal.cannabislawreport.com/alexander-hymowitz-the-effects-cannabis-production-has-on-utility-grids/',
     image: cannabisLaw,
   },
   {
@@ -266,6 +260,26 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://journal.cannabislawreport.com/alexander-hymowitz-the-nbas-ending-of-cannabis-testing-is-a-step-in-the-right-direction-but-misses-the-rim/',
     image: cannabisLaw,
   },
+  {
+    description: 'Cannabis Case Summary: Conant v. Walters',
+    url: 'https://journal.cannabislawreport.com/anylaw-cannabis-case-summary-conant-v-walters/',
+    image: anyLaw
+  },
+  {
+    description: 'Medical Marijuana and Worker’s Compensation in New York',
+    url: 'https://cannabislaw.report/alexander-hymowitz-medical-marijuana-and-workers-compensation-in-new-york/',
+    image: cannabisLaw
+  },
+  {
+    description: 'Valley Green Grow, Inc. v. Charlton',
+    url: 'https://cannabislaw.report/alexander-hymowitz-valley-green-grow-inc-v-charlton/',
+    image: cannabisLaw
+  },
+  {
+    description: '1440 G. Pacific Realty Corp. v. McCurdy',
+    url: 'https://cannabislaw.report/alexander-hymowitz-1440-g-pacific-realty-corp-v-mccurdy/',
+    image: cannabisLaw
+  }
 ];
 
 /**

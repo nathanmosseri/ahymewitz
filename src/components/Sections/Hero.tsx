@@ -39,8 +39,8 @@ const Hero: FC = memo(() => {
                   )}
                   href={href}
                   key={text}
-                  target="_blank" 
                   rel="noopener noreferrer"
+                  target="_blank" 
                   >
                   {text}
                   {Icon && <Icon className="h-5 w-5 text-white sm:h-6 sm:w-6" />}
